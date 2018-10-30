@@ -8,8 +8,12 @@ $(function(){
 	case 'Contact Us' :		
 		$('#contact').addClass('Active');
 		break;
+	case 'All Products' :		
+		$('#listProducts').addClass('Active');
+		break;	
 	default:
-		$('#home').addClass('Active');
+		$('#lisProducts').addClass('Active');
+		$('#a_'+menu).addClass('Active');
 	break;
 	}
 
