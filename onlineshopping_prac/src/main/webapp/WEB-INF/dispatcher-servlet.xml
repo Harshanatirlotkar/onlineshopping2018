@@ -12,8 +12,10 @@
    http://www.springframework.org/schema/mvc/spring-mvc.xsd
    ">
    
-   <context:component-scan base-package="net.harsh.onlineshopping_prac.controller" />
-   <context:component-scan base-package="net.harsh.shoppingbackend_prac.daoimpl" />
+   
+   <context:component-scan base-package="net.harsh.onlineshopping_prac" />
+   <context:component-scan base-package="net.harsh.shoppingbackend_prac" />
+   
    
    <bean id="viewResolver"
    			class="org.springframework.web.servlet.view.InternalResourceViewResolver">
